@@ -1,4 +1,21 @@
 @media(max-width:425px){
+    .navbar, .section-carrusel, .section-1, .container-fluid{
+        flex-wrap: wrap;
+        }
+        .navbar div{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        nav{
+            justify-content: center;
+        }
+}
+
+
+
+
+
+
     .section-1{
         display: grid;
             grid-template-columns: repeat(1,auto);
